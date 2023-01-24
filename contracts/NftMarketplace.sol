@@ -43,7 +43,7 @@ contract NftMarketplace is ReentrancyGuard {
      */
     mapping(address => mapping(uint256 => Listing)) private s_listings;
     /**
-     * Keep track of proceeds earn from users selling NFTs
+     * Keep track of proceeds earn from users selling NFs
      */
     mapping(address => uint256) private s_proceeds;
 
